@@ -20,7 +20,6 @@ CPPUTEST_WARNINGFLAGS += -Wswitch-default
 CPPUTEST_WARNINGFLAGS += -Wswitch-enum
 CPPUTEST_WARNINGFLAGS += -Wno-suggest-override
 CPPUTEST_WARNINGFLAGS += -Wno-suggest-destructor-override
-CPPUTEST_CFLAGS += -std=c89
 CPPUTEST_CFLAGS += -Wextra
 CPPUTEST_CFLAGS += -pedantic
 CPPUTEST_CFLAGS += -Wstrict-prototypes
