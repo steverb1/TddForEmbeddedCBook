@@ -40,6 +40,8 @@ LightState LightControllerSpy_GetLightState(int id);
 int LightControllerSpy_GetLastId(void);
 int LightControllerSpy_GetLastState(void);
 int LightControllerSpy_GetEventCounts(void);
+void LightController_TurnOff(int id);
+int LightControllerSpy_GetEventCounts(void);
 
 #endif  /* D_LightControllerSpy_H */
 
